@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include "utility.h"
+#include "hello.h"
 
-int main(void){
-	printf("I'm here the sewante");
-	printf("this is messy");
-	return 0;
+void print_hello(void){
+	char *hello_msg = "hello";
+	print_msg(hello_msg);
 }
